@@ -1,0 +1,57 @@
+.subscription{
+  margin-bottom: 151px;
+  padding: 108px 0 65px;
+  background-image: url("../images/dog.png"), url("../images/subscription-bgi.png");
+  background-repeat: no-repeat;
+  background-size: 613px 481px, 100% 308px;
+  background-position: calc(50% + 445px) calc(50%), center calc(50% + 21px) ;
+}
+
+.subscription__box{
+  padding: 90px 222px 88px;
+}
+
+.subscription__title{
+  margin: 0;
+  margin-bottom: 32px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 50px;
+  color: #FFFFFF;
+}
+
+.subscription__item{
+  margin-right: 21px;
+}
+
+.subscription__email{
+  width: 100%;
+  max-width: 335px;
+  padding: 16px 22px 15px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+  background: #FFFFFF;
+  border: none;
+  border-radius: 5px;
+}
+
+.subscription__submit{
+  padding: 15px 52px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  color: #FFFFFF;
+  background: #333333;
+  border: none;
+  border-radius: 3px;
+
+  &:hover{
+    opacity: 0.8;
+  }
+
+  &:active{
+    opacity: 0.6;
+  }
+}
