@@ -161,13 +161,22 @@
   &::before{
     position: absolute;
     left: 0;
-    bottom: 0px;
+    bottom: 3px;
     right: 0;
     z-index: -1;
     display: block;
     width: 100%;
-    height: 40%;
+    height: 0;
     background-color: #F4FFAD;
+    transition: all 0.2s ease;
     content: "";
+  }
+
+  &:hover::before{
+    height: 30%;
+  }
+
+  &:active{
+    opacity: 0.6;
   }
 }

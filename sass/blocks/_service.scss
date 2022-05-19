@@ -1,0 +1,242 @@
+.service{
+  margin-bottom: 127px;
+}
+
+.service__box{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.service__title{
+  margin: 0;
+  margin-bottom: 80px;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  text-align: center;
+  color: #333333;
+}
+
+.service__list{
+  position: relative;
+  display: flex;
+  align-items: stretch;
+  @include list-global;
+
+  &::before{
+    position: absolute;
+    top: calc(50%);
+    left: -44px;
+    width: 14px;
+    height: 26px;
+    background-image: url("../../images/list-icon-left.svg");
+    background-repeat: no-repeat;
+    background-size: 14px 26px;
+    background-position: center;
+    content: "";
+  }
+
+  &::after{
+    position: absolute;
+    top: calc(50%);
+    right: -44px;
+    width: 14px;
+    height: 26px;
+    background-image: url("../../images/list-icon-right.svg");
+    background-repeat: no-repeat;
+    background-size: 14px 26px;
+    background-position: center;
+    content: "";
+  }
+}
+
+.service__item{
+  display: flex;
+  margin-right: 13px;
+  margin-bottom: 14px;
+
+  &:nth-child(1){
+    margin-bottom: 0;
+  }
+
+  &:nth-child(6){
+    margin-right: 0;
+  }
+}
+
+.service__link{
+  width: 193px;
+  padding: 28px 33px;
+  background: #FFFFFF;
+  border: 1px solid #F3F3F3;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  text-decoration: none;
+  color: #333333;
+
+  &::before{
+    margin-bottom: 21px;
+    display: inline-block;
+    width: 55px;
+    height: 77px;
+    background-image: url("../images/doctor.svg");
+    background-repeat: no-repeat;
+    background-size: 55px 77px;
+    background-position: center top;
+    content: "";
+  }
+}
+
+.service__item:nth-child(1) > .service__link{
+  border: 0;
+  border-radius: 5px 5px 0px 0px;
+}
+
+.service__item:nth-child(2) > .service__link{
+  &::before{
+    width: 61px;
+    height: 76px;
+    margin-bottom: 22px;
+    background-image: url("../images/filled.svg");
+    background-size: 61px 76px;
+  }
+}
+
+.service__item:nth-child(3) > .service__link{
+  &::before{
+    width: 72px;
+    height: 77px;
+    margin-bottom: 21px;
+    background-image: url("../images/surgical.svg");
+    background-size: 72px 77px;
+  }
+}
+
+.service__item:nth-child(4) > .service__link{
+  &::before{
+    width: 76px;
+    height: 76px;
+    margin-bottom: 34px;
+    background-image: url("../images/dermatology.svg");
+    background-size: 76px 76px;
+  }
+}
+
+.service__item:nth-child(5) > .service__link{
+  &::before{
+    width: 78px;
+    height: 78px;
+    margin-bottom: 21px;
+    background-image: url("../images/laboratory.svg");
+    background-size: 78px 78px;
+  }
+}
+
+.service__item:nth-child(6) > .service__link{
+  &::before{
+    width: 76px;
+    height: 76px;
+    margin-bottom: 33px;
+    background-image: url("../images/Ophthalmology.svg");
+    background-size: 76px 76px;
+  }
+}
+
+.service__content-box{
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  width: 100%;
+  max-width: 1223px;
+  padding: 42px 35px;
+  background: #FFFFFF;
+  border-radius: 0px 5px 5px 5px;
+}
+
+.service__img{
+  width: 524px;
+  height: 329px;
+  margin-right: 67px;
+  border-radius: 5px;
+}
+
+.service__content{
+  width: 100%;
+  max-width: 492px;
+}
+
+.service__subject{
+  margin: 0;
+  margin-bottom: 18px;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 40px;
+  color: #333333;
+}
+
+.service__text{
+  margin: 0;
+  margin-bottom: 9px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #949494;
+
+  &:nth-child(3){
+    margin-bottom: 34px;
+  }
+}
+
+.service__link-price{
+  display: inline-block;
+  margin-right: 21px;
+  padding: 15px 36px 15px 63px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #FFBD54;
+  border-radius: 3px;
+  background-image: url("../images/price.svg");
+  background-repeat: no-repeat;
+  background-size: 21px;
+  background-position: center left 35px;
+
+  &:hover{
+    opacity: 0.8;
+  }
+
+  &:active{
+    opacity: 0.6;
+  }
+}
+
+.service__link-sign{
+  display: inline-block;
+  padding: 15px 37px 15px 64px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background-color: #333333;
+  border-radius: 3px;
+  background-image: url("../images/document.svg");
+  background-repeat: no-repeat;
+  background-size: 21px;
+  background-position: center left 37px;
+
+  &:hover{
+    opacity: 0.8;
+  }
+
+  &:active{
+    opacity: 0.6;
+  }
+}
+
