@@ -1,0 +1,47 @@
+.quote{
+  margin-bottom: 191px;
+} 
+
+.quote__list{
+  width: 100%;
+  max-width: 1000px;
+  margin-right: auto;
+  margin-left: auto;
+  text-align: center;
+
+}
+
+.quote__item{
+  margin-right: auto;
+  margin-bottom: 35px;
+  margin-left: auto;
+  padding: 0 90px;
+  background-image: url("../images/block-left.png"), url("../images/block-right.png");
+  background-repeat: no-repeat;
+  background-size: 50px;
+  background-position: left top, right bottom;
+}
+
+.quote__line{
+  display: inline-block;
+  width: 100%;
+  max-width: 140px;
+  height: 1px;
+  background-color: #DBDBDB;
+}
+
+.quote__title{
+  margin: 0;
+  margin: 43px 0 35px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  color: #949494;
+}
+
+.quote__text{
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 26px;
+  color: #333333;
+}

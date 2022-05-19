@@ -1,0 +1,62 @@
+.hero{
+  margin-top: 61px;
+  margin-bottom: 52px;
+  padding: 153px 0 238px;
+  background-image: url("../images/hero-bgi.png"), url("../images/parrot.png");
+  background-repeat: no-repeat;
+  background-size: 870px 835px, 319px 430px;
+  background-position: calc(50% - 520px) calc(50% - 130px), calc(50% + 670px) bottom;
+}
+
+.hero__list{
+  width: 100%;
+  max-width: 608px;
+  margin-right: 32px;
+  margin-left: auto;
+}
+
+.hero__item{
+  max-width: 495px;
+}
+
+.hero__title{
+  margin: 0;
+  margin-bottom: 30px;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 64px;
+  color: #333333;
+}
+
+.hero__title-item{
+  color: #78C0DE;
+}
+
+.hero__text{
+  margin: 0;
+  margin-bottom: 38px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #949494;
+}
+
+.hero__link{
+  display: inline-block;
+  padding: 16px 48px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration: none;
+  color: #FFFFFF;
+  background: #333333;
+  border-radius: 3px;
+
+  &:hover{
+    opacity: 0.8;
+  }
+
+  &:active{
+    opacity: 0.6;
+  }
+} 
