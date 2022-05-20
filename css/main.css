@@ -1424,6 +1424,14 @@ img {
   text-decoration: none;
 }
 
+.footer__logo-link:hover {
+  opacity: 0.8;
+}
+
+.footer__logo-link:active {
+  opacity: 0.6;
+}
+
 .footer__logo-img {
   width: 158px;
   height: 77px;
@@ -1478,7 +1486,7 @@ img {
 }
 
 .footer__link:hover::before {
-  height: 30%;
+  height: 40%;
 }
 
 .footer__link:active {

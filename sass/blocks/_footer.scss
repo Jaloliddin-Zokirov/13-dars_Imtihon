@@ -13,6 +13,14 @@
 .footer__logo-link{
   margin-right: 67px;
   text-decoration: none;
+
+  &:hover{
+    opacity: 0.8;
+  }
+
+  &:active{
+    opacity: 0.6;
+  }
 }
 
 .footer__logo-img{
@@ -63,7 +71,7 @@
   }
 
   &:hover::before{
-    height: 30%;
+    height: 40%;
   }
 
   &:active{
